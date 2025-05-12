@@ -23,3 +23,7 @@ variable "instance_type" {
   default = "t2.micro"
   description = "this is now basic instance"
 }
+
+output "instance_public_ip" {
+ value =  aws_instance.web.id
+}
