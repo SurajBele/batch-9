@@ -1,9 +1,12 @@
 - name: my 1st playbook
-  hosts: all 
+  hosts: all
   vars:
     movie: "spiderman"
-  vars_files:
-    - ./var.txt
+  # vars_files:
+  #   - ./var.txt
+  vars_prompt:
+    - name: movie
+      prompt: Enter the movie name
   tasks:
     - name: 1st task
       debug:
