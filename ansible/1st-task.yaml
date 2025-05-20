@@ -25,7 +25,7 @@
       register: movie
     - name: print hostname
       debug:
-        msg: "this is hostname
+        msg: "this is 
 
 
     
