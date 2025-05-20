@@ -25,7 +25,7 @@
       register: URL
     - name: print hostname
       debug:
-        msg: "this is {{movie}}
+        msg: "this is {{URL}}
 
 
     
