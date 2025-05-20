@@ -22,7 +22,7 @@
 
     - name: get hostname
       shell: hostname
-      register: movie
+      register: URL
     - name: print hostname
       debug:
         msg: "this is {{movie}}
