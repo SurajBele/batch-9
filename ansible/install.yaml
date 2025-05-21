@@ -1,3 +1,4 @@
 - name: installation file
   hosts: all
-  
+  tasks:
+    
