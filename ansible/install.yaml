@@ -1,3 +1,7 @@
+# yum and apt module
+# conditions
+
+
 - name: installation file
   hosts: all
   tasks:
@@ -6,9 +10,9 @@
        - name: apache2
          state: latest
          update_cache: yes
-        when: ansible_os_family == "Debian"
+      when: ansible_os_family == "Debian"
     - name: install httpd
       yum:
        - name: httpd
          state: present
-       when: ansible_os_family == "Debian"
+      when: ansible_os_family == "RedHat"
