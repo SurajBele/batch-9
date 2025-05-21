@@ -19,7 +19,7 @@
        state: present
       when: ansible_os_family == "RedHat"
 
-    - name: install httpd
+    - name: install nginx
       package:
        name: nginx
        state: present
