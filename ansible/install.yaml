@@ -22,7 +22,7 @@
 
     - name: install httpd
       package:
-       name: httpd
+       name: nginx
        state: present
       when: ansible_os_family == "RedHat"
 
