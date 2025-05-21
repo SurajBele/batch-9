@@ -6,7 +6,7 @@
   hosts: all
   become: true
   tasks:
-    - name: install apche2
+    - name: install apache2
       apt:
        - name: apache2
          state: latest
