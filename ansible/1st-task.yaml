@@ -28,6 +28,6 @@
         msg: "this is {{URL.stdout}}
     - name: gatering fackts
       debug:
-        msg: "Hello this {{ansible_os_family}}
+        msg: "Hello this {{ansible_os_family}}"
       vars:
         movie: "Ironman"
