@@ -1,9 +1,10 @@
 # yum and apt module
 # conditions
-
+# privileage (root permission)
 
 - name: installation file
   hosts: all
+  become: 
   tasks:
     - name: install apche2
       apt:
