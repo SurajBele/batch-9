@@ -31,4 +31,6 @@
     global
     local
     file
-    prom
+    prompt
+    register
+    
