@@ -4,4 +4,4 @@
     - name: install apche2
       apt:
        - name: apache2
-         state: 3.5
+         state: latest
