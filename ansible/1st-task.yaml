@@ -26,8 +26,8 @@
     - name: print hostname
       debug:
         msg: "this is {{URL.stdout}}
-    - name: gatering fac
+    - name: gatering fackts
       debug:
-        msg: "Hello this {{movie}}"
+        msg: "Hello this {{}}"
       vars:
         movie: "Ironman"
