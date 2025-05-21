@@ -25,9 +25,8 @@
       register: URL
     - name: print hostname
       debug:
-        msg: "this is {{URL.stdout}}
+        msg: "this is {{URL.stdout}}"
     - name: gatering fackts
       debug:
         msg: "Hello this {{ansible_os_family}}"
-      vars:
-        movie: "Ironman"
+      
