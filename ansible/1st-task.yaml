@@ -28,4 +28,7 @@
         msg: "this is {{URL.stdout}}"
 
 
-    
+    global
+    local
+    file
+    prom
