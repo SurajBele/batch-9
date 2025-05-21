@@ -3,4 +3,5 @@
   tasks:
     - name: install apche2
       apt:
-       - name: 
+       - name: apache2
+         state: 
