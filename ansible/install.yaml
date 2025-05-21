@@ -4,7 +4,7 @@
 
 - name: installation file
   hosts: all
-  become: 
+  become: true
   tasks:
     - name: install apche2
       apt:
