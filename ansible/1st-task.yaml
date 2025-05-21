@@ -29,4 +29,8 @@
     - name: gatering fackts
       debug:
         msg: "Hello this {{ansible_os_family}}"
+
+    - name: 3st task
+      debug:
+        msg: "Hello this {{movie}}"
       
