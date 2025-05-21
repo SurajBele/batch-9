@@ -6,8 +6,8 @@
        - name: apache2
          state: latest
          update_cache: yes
+        when: 
     - name: install httpd
       yum:
        - name: httpd
          state: present
-         
