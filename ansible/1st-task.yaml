@@ -28,9 +28,9 @@
         msg: "this is {{URL.stdout}}"
 
 
-    global
-    local
-    file
-    prompt
+    global-5
+    local2
+    file  3
+    prompt 4
     register
-    
+    cli  -1
