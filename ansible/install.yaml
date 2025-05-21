@@ -6,7 +6,7 @@
        - name: apache2
          state: latest
          update_cache: yes
-        when: 
+        when: ansible_os_family == 
     - name: install httpd
       yum:
        - name: httpd
