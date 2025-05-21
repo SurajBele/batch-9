@@ -26,7 +26,8 @@
     - name: print hostname
       debug:
         msg: "this is {{URL.stdout}}
-   - name: 3st task
+  
+    - name: 3st task
       debug:
         msg: "Hello this {{movie}}"
       vars:
