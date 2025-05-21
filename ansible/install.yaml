@@ -8,9 +8,9 @@
   tasks:
     - name: install apache2
       apt:
-       - name: apache2
-         state: latest
-         update_cache: yes
+       name: apache2
+       state: latest
+       update_cache: yes
       when: ansible_os_family == "Debian"
     - name: install httpd
       yum:
