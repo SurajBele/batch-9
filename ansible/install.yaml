@@ -31,3 +31,10 @@
        name: nginx
        state: started
        enabled: yes
+    - name: print list
+      debug:
+        msg: "{{item}}"
+      loop:
+        - apply
+        - banana
+        - mango
