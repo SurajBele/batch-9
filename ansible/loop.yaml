@@ -10,8 +10,9 @@
         - greps
     - name: loop check 2
       package:
-        msg: "{{item}}"
+        name:: "{{item}}"
+        state: latest
       loop:
-        - apple
+        - vim
         - banana
         - greps
