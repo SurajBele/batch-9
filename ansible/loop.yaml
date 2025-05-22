@@ -8,3 +8,10 @@
         - apple
         - banana
         - greps
+    - name: loop check 2
+      debug:
+        msg: "{{item}}"
+      loop:
+        - apple
+        - banana
+        - greps
