@@ -5,4 +5,4 @@
       debug:
         msg: "{{item}}"
       loop:
-        - 
+        - appl
