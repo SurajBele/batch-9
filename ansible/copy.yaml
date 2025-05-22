@@ -1,16 +1,17 @@
-- name: my web server
+- name: my 
   hosts: all
   tasks:
   - name: install apache2
     apt:
       name: apache2
       state: latest
-    when: ansible_os_family == "RedHat"
-  - name: start httpd
+
+  - name: start apache2
     service:
-      name: httpd
+      name: apache2
       state: restarted
       enabled: true
+
   - name: deployment
     copy:
       src: ./index.html
