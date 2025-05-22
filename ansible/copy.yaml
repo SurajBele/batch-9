@@ -15,5 +15,5 @@
     service:
       name: apache2
       state: restarted
-      enabled: true
+      enabled: yes
 
