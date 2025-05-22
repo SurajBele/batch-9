@@ -3,4 +3,6 @@
   tasks:
     - name: loop check
       debug:
-        msg: {{item}}
+        msg: "{{item}}"
+      loop:
+        - 
