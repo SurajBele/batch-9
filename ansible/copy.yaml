@@ -3,7 +3,7 @@
   tasks:
   - name: install apache2
     apt:
-      name: httpd
+      name: apache2
       state: latest
     when: ansible_os_family == "RedHat"
   - name: start httpd
