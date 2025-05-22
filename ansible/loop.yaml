@@ -5,4 +5,6 @@
       debug:
         msg: "{{item}}"
       loop:
-        - appl
+        - apple
+        - banana
+        - greps
