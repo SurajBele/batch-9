@@ -14,5 +14,5 @@
         state: latest
       loop:
         - vim
-        - banana
-        - greps
+        - wget
+        - nginx
