@@ -6,11 +6,11 @@
       name: apache2
       state: latest
 
-  - name: start apache2
-    service:
-      name: apache2
-      state: restarted
-      enabled: true
+  # - name: start apache2
+  #   service:
+  #     name: apache2
+  #     state: restarted
+  #     enabled: true
 
   - name: deployment
     copy:
