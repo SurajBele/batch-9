@@ -1,7 +1,17 @@
-- name: copy index file
+- name: my web server
   hosts: all
   tasks:
-    - name: copy module
-      copy:
-        src: ./index.html
-        dest: /var/www/html/index.html
+  - name: install apache2
+    apt:
+      name: httpd
+      state: latest
+    when: ansible_os_family == "RedHat"
+  - name: start httpd
+    service:
+      name: httpd
+      state: restarted
+      enabled: true
+  - name: deployment
+    copy:
+      src: ./index.html
+      dest: /var/www/html/index.html
