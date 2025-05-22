@@ -29,6 +29,7 @@
        name: nginx
        state: started
        enabled: yes
+       
     - name: print list
       debug:
         msg: "{{item}}"
