@@ -5,16 +5,16 @@
     - name: install apache2
       apt:
         name: apache2
-      state: latest
+        state: latest
 
-  - name: deployment
-    copy:
-      src: ./index.html
-      dest: /var/www/html/index.html
+    - name: deployment
+      copy:
+        src: ./index.html
+        dest: /var/www/html/index.html
 
-  - name: start apache2
-    service:
-      name: apache2
-      state: restarted
+    - name: start apache2
+      service:
+        name: apache2
+        state: restarted
       enabled: yes
 
