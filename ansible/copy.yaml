@@ -3,5 +3,5 @@
   tasks:
     - name: copy module
       copy:
-        src: 
-        dest:
+        src: ./index.html
+        dest: 
