@@ -1,6 +1,6 @@
 - name: my copy module usecase
   hosts: all
-  be
+  become: true
   tasks:
   - name: install apache2
     apt:
