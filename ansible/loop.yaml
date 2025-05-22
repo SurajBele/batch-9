@@ -1,2 +1,5 @@
 - name: isntall multiple values
-  hosts: 
+  hosts: all
+  tasks:
+    - name: loop check
+      debug
