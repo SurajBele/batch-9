@@ -29,7 +29,7 @@
        name: nginx
        state: started
        enabled: yes
-       ignor_errors: true
+       ignore_errors: true
 
     - name: print list
       debug:
