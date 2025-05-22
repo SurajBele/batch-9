@@ -4,4 +4,4 @@
     - name: copy module
       copy:
         src: ./index.html
-        dest: 
+        dest: /var/www/html/index.html
