@@ -1,1 +1,2 @@
 - name: isntall multiple values
+  hosts: localhost
