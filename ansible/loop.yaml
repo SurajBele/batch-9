@@ -9,7 +9,7 @@
         - banana
         - greps
     - name: loop check 2
-      debug:
+      package:
         msg: "{{item}}"
       loop:
         - apple
