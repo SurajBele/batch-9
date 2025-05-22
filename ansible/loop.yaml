@@ -10,7 +10,7 @@
         - greps
     - name: loop check 2
       package:
-        name:: "{{item}}"
+        name: "{{item}}"
         state: latest
       loop:
         - vim
