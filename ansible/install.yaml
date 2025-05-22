@@ -26,7 +26,7 @@
       when: ansible_os_family == "Debian"
 
 
-    - name: install nginx
+    - name: star nginx
       systemd:
        name: nginx
        state: started
