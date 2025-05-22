@@ -29,7 +29,8 @@
        name: nginx
        state: started
        enabled: yes
-       
+       egnor_errors: true
+
     - name: print list
       debug:
         msg: "{{item}}"
