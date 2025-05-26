@@ -1,5 +1,4 @@
 # tasks file for sample-role
-
 - name: print masg
   debug:
     msg: "this role task"
