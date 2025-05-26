@@ -7,7 +7,7 @@
     msg: "{{text}}"
 - name: install apache2
   package:
-    name: apache2
+    name: "{{}}}"
     state: latest
     enabled: true
 - name: copy index.html 
