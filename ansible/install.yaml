@@ -43,3 +43,8 @@
 
 roles
   myrole
+     tasks:
+        - main.yaml
+     vars:
+        - main.yaml
+        
