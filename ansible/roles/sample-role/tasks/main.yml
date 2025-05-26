@@ -9,7 +9,7 @@
   package:
     name: "{{pkg}}"
     state: latest
-    enabled: true
+    
 - name: copy index.html 
   copy:
     src: index.html
