@@ -1,5 +1,5 @@
 #SPDX-License-Identifier: MIT-0
 ---
 # vars file for sample-role
-text : ansible
+text: ansible
 pkg: apache2
