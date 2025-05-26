@@ -1,0 +1,22 @@
+# tasks file for sample-role
+
+- name: print masg
+  debug:
+    msg: "this role task"
+- name: print masg
+  debug:
+    msg: "{{text}}"
+- name: install apache2
+  package:
+    name: apache2
+    state: latest
+    enabled: true
+- name: copy index.html 
+  copy:
+    src: index.html
+    dest: /var/www/html/index.html
+    notify:
+      - restart service
+
+
+
