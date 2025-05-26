@@ -9,7 +9,8 @@
   package:
     name: "{{pkg}}"
     state: latest
-- name: copy index.html 
+- name: copy index.html
+  
   copy:
     src: index.html
     dest: /var/www/html/index.html
