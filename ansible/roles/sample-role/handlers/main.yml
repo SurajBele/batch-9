@@ -3,3 +3,4 @@
   systemd: 
     name: "{{pkg}}"
     state: restarted
+    enabled: true
