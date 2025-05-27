@@ -1,4 +1,3 @@
-
 # vars file for sample-role
 text: ansible
 pkg: apache2
