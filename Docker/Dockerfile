@@ -1,2 +1,2 @@
 FROM centos:9
-WORKDIR 
+WORKDIR /opt/
