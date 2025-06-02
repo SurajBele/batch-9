@@ -1,1 +1,1 @@
-F arguments
+FROM centos
