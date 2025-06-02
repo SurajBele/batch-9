@@ -1,4 +1,4 @@
 FROM centos:9
 WORKDIR /opt/
-ADD source dest
+ADD URL dest
 COPY index.html /var/www/html/index.html
