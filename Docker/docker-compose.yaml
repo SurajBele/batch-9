@@ -7,4 +7,4 @@ services:
     environment:
       - department=dev
   backend:
-    image: surajbele
+    image: surajbele/batch9:alpine
