@@ -7,3 +7,4 @@ services:
     environment:
       - department=dev
   backend:
+    image: surajbele
