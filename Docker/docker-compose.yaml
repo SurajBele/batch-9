@@ -1,4 +1,4 @@
 version: "3"
 services:
   webserver:
-    image: surajbele/batch9:
+    image: surajbele/batch9:v1
