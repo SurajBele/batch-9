@@ -4,3 +4,5 @@ services:
     image: surajbele/batch9:v1
     ports:
       - 80:80
+    environment:
+      - name=value
