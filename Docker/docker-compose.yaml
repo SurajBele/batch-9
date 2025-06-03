@@ -6,3 +6,4 @@ services:
       - 80:80
     environment:
       - department=dev
+  backend:
