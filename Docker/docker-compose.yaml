@@ -10,3 +10,4 @@ services:
     image: surajbele/batch9:alpine
     ports:
       - 8080:80
+    volume:
