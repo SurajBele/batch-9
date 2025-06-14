@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: spider2
-  
-  env: dev
+  labels:
+    env: dev
 spec:
   containers:
     - name: spider2
