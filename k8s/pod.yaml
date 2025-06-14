@@ -7,4 +7,4 @@ spec:
   containers:
     - name: spider2
       image: nginx
-      
+      ports:
