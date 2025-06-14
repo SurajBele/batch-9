@@ -8,3 +8,4 @@ spec:
     - name: spider2
       image: nginx
       ports:
+        - containerPort: 80
