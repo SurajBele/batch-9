@@ -22,4 +22,4 @@ spec:
     app: spider2
   ports:
   - port: 80
-    targetPort: <Target Port>
+    targetPort: 80
