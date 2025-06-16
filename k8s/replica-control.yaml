@@ -11,7 +11,7 @@ selector:
       name: spider2
       labels:
         env: dev
-    app: myworkapp
+        app: myworkapp
     spec:
       containers:
         - name: spider2
