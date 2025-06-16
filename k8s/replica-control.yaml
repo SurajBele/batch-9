@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 3
   selector:
-  app: myworkapp
+    app: myworkapp
   template:
     metadata:
       name: spider2
