@@ -15,4 +15,6 @@ spec:
 ...
 ---
 apiVersion: v1
-kind: Na
+kind: Namespace
+metadata:
+
