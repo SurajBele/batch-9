@@ -10,7 +10,7 @@ selector:
     metadata:
       name: spider2
       labels:
-       env: dev
+        env: dev
     app: myworkapp
   spec:
     containers:
