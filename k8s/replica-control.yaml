@@ -9,8 +9,8 @@ selector:
   template:
     metadata:
       name: spider2
-  labels:
-    env: dev
+      labels:
+       env: dev
     app: myworkapp
   spec:
     containers:
