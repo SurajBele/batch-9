@@ -3,17 +3,3 @@ kind: ReplicationController
 metadata:
   name: myReplicationController
 spec:
-  replicas: <Replicas>
-  selector:
-    app: myapp
-  template:
-    metadata:
-      name: myapp
-      labels:
-        app: myapp
-    spec:
-      containers:
-        - name: myapp
-          image: <Image>
-          ports:
-            - containerPort: <Port>
