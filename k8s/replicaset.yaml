@@ -6,7 +6,7 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-    app: myworkapp2
+      app: myworkapp2
     matchExpressions:
       - { key: app, operator: In, values: [myworkapp2] }
   template:
