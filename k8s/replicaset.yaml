@@ -8,13 +8,13 @@ spec:
     app: myworkapp2
   template:
     metadata:
-      name: spider2
+      name: spider3
       labels:
         env: dev
-        app: myworkapp
+        app: myworkapp2
     spec:
       containers:
-        - name: spider2
+        - name: spider3
           image: nginx
           ports:
             - containerPort: 80
