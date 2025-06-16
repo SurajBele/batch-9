@@ -6,6 +6,7 @@ metadata:
   namespace: mywork
   labels:
     env: dev
+    app: myworkapp
 spec:
   containers:
     - name: spider2

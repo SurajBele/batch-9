@@ -4,4 +4,4 @@ metadata:
   name: myReplicationController
 spec:
 selector:
-  a
+  app: myworkapp
