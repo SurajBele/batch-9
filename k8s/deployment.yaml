@@ -8,10 +8,10 @@ spec:
     matchLabels:
       app: myworkapp3
     matchExpressions:
-      - { key: app, operator: In, values: [myworkapp2] }
+      - { key: app, operator: In, values: [myworkapp3] }
   template:
     metadata:
-      name: spider3
+      name: spider4
       labels:
         env: dev
         app: myworkapp2
