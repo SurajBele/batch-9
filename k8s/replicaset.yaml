@@ -8,7 +8,7 @@ spec:
     matchLabels:
     app: myworkapp2
     matchExpressions:
-      - { key: app, operator: In, values: [] }
+      - { key: app, operator: In, values: [myworkapp2] }
   template:
     metadata:
       name: spider3
