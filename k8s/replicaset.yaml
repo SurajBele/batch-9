@@ -1,11 +1,11 @@
 apiVersion: v1
-kind: ReplicationController
+kind: ReplicaSet
 metadata:
-  name: myreplication
+  name: myreplicaset
 spec:
   replicas: 3
   selector:
-    app: myworkapp
+    app: myworkapp2
   template:
     metadata:
       name: spider2
