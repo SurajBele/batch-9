@@ -6,7 +6,7 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-    app: 
+    app: myworkapp2
   template:
     metadata:
       name: spider3
