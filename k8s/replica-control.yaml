@@ -12,10 +12,10 @@ selector:
   labels:
     env: dev
     app: myworkapp
-spec:
-  containers:
-    - name: spider2
-      image: nginx
-      ports:
-        - containerPort: 80
+  spec:
+    containers:
+      - name: spider2
+        image: nginx
+        ports:
+          - containerPort: 80
 ...
