@@ -3,10 +3,10 @@ kind: Deployment
 metadata:
   name: mydeployment
 spec:
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
-      app: myworkapp2
+      app: myworkapp3
     matchExpressions:
       - { key: app, operator: In, values: [myworkapp2] }
   template:
