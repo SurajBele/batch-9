@@ -3,7 +3,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: spider2
-  namespace
+  namespace:
   labels:
     env: dev
 spec:
