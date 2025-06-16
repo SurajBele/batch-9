@@ -3,3 +3,4 @@ kind: ReplicationController
 metadata:
   name: myReplicationController
 spec:
+sele
