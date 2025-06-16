@@ -5,3 +5,17 @@ metadata:
 spec:
 selector:
   app: myworkapp
+  template:
+  metadata:
+  name: spider2
+  namespace: mywork
+  labels:
+    env: dev
+    app: myworkapp
+spec:
+  containers:
+    - name: spider2
+      image: nginx
+      ports:
+        - containerPort: 80
+...
