@@ -3,6 +3,7 @@ kind: ReplicationController
 metadata:
   name: myReplicationController
 spec:
+replicas: 23
 selector:
   app: myworkapp
   template:
