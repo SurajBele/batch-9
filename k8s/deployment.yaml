@@ -14,10 +14,10 @@ spec:
       name: spider4
       labels:
         env: dev
-        app: myworkapp2
+        app: myworkapp3
     spec:
       containers:
-        - name: spider3
+        - name: spider4
           image: nginx
           ports:
             - containerPort: 80
