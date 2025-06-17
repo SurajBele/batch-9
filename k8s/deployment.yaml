@@ -25,8 +25,8 @@ spec:
           image: nginx
           env:
           valueFrom: 
-             configMapKeyRef:
-               name: myvariables
-               key: name
+            configMapKeyRef:
+              name: myvariables
+              key: name
           ports:
            - containerPort: 80
