@@ -17,8 +17,6 @@ spec:
   template:
     metadata:
       name: spider4
-      labels:
-        : dev
     spec:
       containers:
         - name: spider4
