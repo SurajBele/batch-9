@@ -19,6 +19,7 @@ spec:
       name: spider4
       labels:
         valueFrom: 
+          comfig
         env: dev
         app: myworkapp3
     spec:
