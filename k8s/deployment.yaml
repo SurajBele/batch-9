@@ -18,7 +18,7 @@ spec:
     metadata:
       name: spider4
       labels:
-        env:
+        env: dev
     spec:
       containers:
         - name: spider4
@@ -27,5 +27,5 @@ spec:
             configMapKeyRef:
               name: myvariables
               key: name
-                    ports:
+            ports:
             - containerPort: 80
