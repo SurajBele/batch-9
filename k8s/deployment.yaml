@@ -20,7 +20,9 @@ spec:
       labels:
         valueFrom: 
           configMapKeyRef:
-            name: 
+            name: myvariables
+            key: name
+            key: env
 
         env: dev
         app: myworkapp3
