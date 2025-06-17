@@ -4,7 +4,11 @@ metadata:
   name: mydeployment
 spec:
   replicas: 4
-  
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 3
+      maxUnavailable: 1
   selector:
     matchLabels:
       app: myworkapp3
@@ -19,6 +23,6 @@ spec:
     spec:
       containers:
         - name: spider4
-          image: nginx
+          image: httpd
           ports:
             - containerPort: 80
