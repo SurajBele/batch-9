@@ -24,6 +24,7 @@ spec:
         - name: spider4
           image: nginx
           env:
+          - name: 
           valueFrom: 
             configMapKeyRef:
               name: myvariables
