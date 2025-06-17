@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: myapp
+  name: myvariables
 data:
   name: suraj
   env: devops
-  
+
