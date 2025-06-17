@@ -23,6 +23,6 @@ spec:
     spec:
       containers:
         - name: spider4
-          image: nginx
+          image: httpd
           ports:
             - containerPort: 80
