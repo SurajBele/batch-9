@@ -4,6 +4,7 @@ metadata:
   name: mydeployment
 spec:
   replicas: 4
+  
   selector:
     matchLabels:
       app: myworkapp3
