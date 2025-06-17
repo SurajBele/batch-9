@@ -23,10 +23,9 @@ spec:
       containers:
         - name: spider4
           image: nginx
-          env:
-           valueFrom: 
-              configMapKeyRef:
-                name: myvariables
-                key: name
+          valueFrom: 
+             configMapKeyRef:
+               name: myvariables
+               key: name
           ports:
            - containerPort: 80
