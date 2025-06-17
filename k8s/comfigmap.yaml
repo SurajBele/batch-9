@@ -3,4 +3,6 @@ kind: ConfigMap
 metadata:
   name: myapp
 data:
-  : value
+  name: suraj
+  env: devops
+  
