@@ -23,6 +23,7 @@ spec:
       containers:
         - name: spider4
           image: nginx
+          
           valueFrom: 
             configMapKeyRef:
               name: myvariables
