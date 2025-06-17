@@ -18,6 +18,7 @@ spec:
     metadata:
       name: spider4
       labels:
+        val
         env: dev
         app: myworkapp3
     spec:
