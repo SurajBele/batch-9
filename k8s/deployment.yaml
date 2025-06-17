@@ -19,8 +19,8 @@ spec:
       name: spider4
       labels:
         valueFrom: 
-          comfigMapKeyRef:
-          
+          configMapKeyRef:
+
         env: dev
         app: myworkapp3
     spec:
