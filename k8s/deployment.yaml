@@ -17,6 +17,8 @@ spec:
   template:
     metadata:
       name: spider4
+      labels:
+        app: myworkapp3
     spec:
       containers:
         - name: spider4
