@@ -18,7 +18,7 @@ spec:
     metadata:
       name: spider4
       labels:
-        env: dev
+        : dev
     spec:
       containers:
         - name: spider4
