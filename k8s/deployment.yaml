@@ -18,14 +18,12 @@ spec:
     metadata:
       name: spider4
       labels:
-        valueFrom: 
-          configMapKeyRef:
-            name: myvariables
-            key: name
-            key: env
-
-        env: dev
-        app: myworkapp3
+        env:
+          valueFrom: 
+            configMapKeyRef:
+              name: myvariables
+              key: name
+              key: env
     spec:
       containers:
         - name: spider4
