@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: myvariables
 data:
-  apss: suraj
+  name
   env: devops
 
