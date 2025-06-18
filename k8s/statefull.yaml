@@ -22,3 +22,5 @@ spec:
           ports:
           - name: db
             containerPort: 3306
+          env:
+          
