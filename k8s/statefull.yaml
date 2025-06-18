@@ -24,3 +24,4 @@ spec:
             containerPort: 3306
           env:
            - name: MARIADB_ROOT_PASSWORD
+             val
