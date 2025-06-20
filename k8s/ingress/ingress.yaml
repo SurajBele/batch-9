@@ -21,6 +21,7 @@ spec:
       paths:
       - pathType: Prefix
         path: "/mobile"
+        backend:
 
 
 /var/www/html/mobile/index.html
