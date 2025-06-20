@@ -21,11 +21,11 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp-home
+  name: myapp-mobile
 spec:
   selector:
     matchLabels:
-      app: myapp-home
+      app: myapp-mo
   template:
     metadata:
       labels:
