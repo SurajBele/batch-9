@@ -9,10 +9,10 @@ spec:
   template:
     metadata:
       labels:
-        app: myapp
+        app: myapp-home
     spec:
       containers:
-      - name: myapp
+      - name: myapp-home
         image: nginx
         ports:
         - containerPort: 80
