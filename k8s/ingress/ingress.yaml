@@ -17,6 +17,9 @@ spec:
             port: 
               number: 80
   - host: mobile.com
+    http:
+      paths:
+      - [ath]
 
 
 /var/www/html/mobile/index.html
