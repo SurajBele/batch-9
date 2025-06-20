@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: myapp-home
+  name: myapp-home-service
 spec:
   selector:
-    app: myapp
+    app: myapp-home
   ports:
   - port: 80
     targetPort: 80
