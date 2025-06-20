@@ -13,7 +13,7 @@ spec:
         path: "/"
         backend:
           service:
-            name: <Service>
+            name: myapp-home-service
             port: 
               number: <Port>
 
