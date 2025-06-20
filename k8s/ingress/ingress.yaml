@@ -19,7 +19,8 @@ spec:
   - host: mobile.com
     http:
       paths:
-      - pathType: Pre
+      - pathType: Prefix
+        path
 
 
 /var/www/html/mobile/index.html
