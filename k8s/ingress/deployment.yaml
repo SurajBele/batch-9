@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: myapp-mobile
-        image: nginx
+        image: httpd
         ports:
         - containerPort: 80
 
