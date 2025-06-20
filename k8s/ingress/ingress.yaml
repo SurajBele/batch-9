@@ -20,7 +20,7 @@ spec:
     http:
       paths:
       - pathType: Prefix
-        path: "/""
+        path: "/mobile"
 
 
 /var/www/html/mobile/index.html
