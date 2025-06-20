@@ -13,10 +13,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: myapp-
+  name: myapp-mobile-service
 spec:
   selector:
-    app: myapp
+    app: myapp-mobile
   ports:
-  - port: <Port>
+  - port: 80
     targetPort: <Target Port>
