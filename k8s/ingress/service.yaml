@@ -19,4 +19,4 @@ spec:
     app: myapp-mobile
   ports:
   - port: 80
-    targetPort: <Target Port>
+    targetPort: 80
