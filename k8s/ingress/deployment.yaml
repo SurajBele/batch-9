@@ -18,5 +18,22 @@ spec:
         - containerPort: 80
 
 ---
-apiVersion: app
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-home
+spec:
+  selector:
+    matchLabels:
+      app: myapp-home
+  template:
+    metadata:
+      labels:
+        app: myapp-home
+    spec:
+      containers:
+      - name: myapp-home
+        image: nginx
+        ports:
+        - containerPort: 80
 
