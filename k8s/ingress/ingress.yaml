@@ -16,7 +16,7 @@ spec:
             name: myapp-home-service
             port: 
               number: 80
-  - rule
+  - host: mobile.com
 
 
 /var/www/html/mobile/index.html
