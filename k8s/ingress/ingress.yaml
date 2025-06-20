@@ -24,7 +24,8 @@ spec:
         backend:
           service:
             name: myapp-mobile-service
-            po
+            port:
+              number: 80
 
 
 /var/www/html/mobile/index.html
