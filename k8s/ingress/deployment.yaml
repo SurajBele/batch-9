@@ -25,14 +25,14 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: myapp-mo
+      app: myapp-mobile
   template:
     metadata:
       labels:
-        app: myapp-home
+        app: myapp-mobile
     spec:
       containers:
-      - name: myapp-home
+      - name: myapp-mobile
         image: nginx
         ports:
         - containerPort: 80
