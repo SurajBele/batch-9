@@ -26,6 +26,3 @@ spec:
             name: myapp-mobile-service
             port:
               number: 80
-
-
-/var/www/html/mobile/index.html
