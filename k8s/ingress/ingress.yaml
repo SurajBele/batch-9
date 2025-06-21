@@ -16,11 +16,11 @@ spec:
             name: myapp-home-service
             port: 
               number: 80
-  - host: mobile.com
+  - host: home.mobile.com
     http:
       paths:
       - pathType: Prefix
-        path: "/mobile"
+        path: "/"
         backend:
           service:
             name: myapp-mobile-service
