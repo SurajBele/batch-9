@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: mypod
+  name: myvolumepod
 spec:
   volumes:
     - name: mypv
