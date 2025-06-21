@@ -11,6 +11,6 @@ spec:
     - name: myfrontend
       image: nginx
       volumeMounts:
-      - mountPath: "usr/"
+      - mountPath: "usr/share/nginx/html"
         name: mypv
   
