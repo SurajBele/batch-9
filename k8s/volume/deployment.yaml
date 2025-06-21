@@ -3,13 +3,14 @@ kind: Pod
 metadata:
   name: mypod
 spec:
+  volumes:
+    - name: mypv
+      persistentVolumeClaim:
+        claimName: myclaim
   containers:
     - name: myfrontend
       image: nginx
       volumeMounts:
       - mountPath: "/var/www/html"
         name: mypv
-  volumes:
-    - name: mypv
-      persistentVolumeClaim:
-        claimName: myclaim
+  
