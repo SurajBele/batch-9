@@ -8,7 +8,7 @@ subjects:           #define user details
   apiGroup: "rbac.authorization.k8s.io"
 
 roleRef:
- kind: Role
- name: pod-reader
- apiGroup: "rbac.authorization.k8s.io"
+  kind: Role
+  name: pod-reader
+  apiGroup: "rbac.authorization.k8s.io"
 
