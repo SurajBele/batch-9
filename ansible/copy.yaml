@@ -1,0 +1,21 @@
+- name: my copy module usecase
+  hosts: all
+  become: true
+  tasks:
+    - name: install apache2
+      apt:
+        name: apache2
+        state: latest
+
+    - name: deployment
+      copy:
+        src: ./index.html
+        dest: /var/www/html/index.html
+    - name: start apache2
+      service:
+        name: apache2
+        state: restarted
+        enabled: yes
+
+lineinfile:
+blockinfile

@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: myreplicaset
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: myworkapp2
+    matchExpressions:
+      - { key: app, operator: In, values: [myworkapp2] }
+  template:
+    metadata:
+      name: spider3
+      labels:
+        env: dev
+        app: myworkapp2
+    spec:
+      containers:
+        - name: spider3
+          image: nginx
+          ports:
+            - containerPort: 80

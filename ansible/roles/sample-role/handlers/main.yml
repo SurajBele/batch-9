@@ -1,0 +1,6 @@
+# handlers file for sample-role
+- name: restart service
+  systemd: 
+    name: "{{pkg}}"
+    state: restarted
+    enabled: true
