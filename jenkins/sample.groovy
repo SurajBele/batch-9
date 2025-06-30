@@ -11,7 +11,7 @@ pipeline {
         }
         stage('building') {
             steps {
-                sh 'mvn clean package'
+                sh 'sudo mvn clean package'
                 echo "building successful"
             }
         }
