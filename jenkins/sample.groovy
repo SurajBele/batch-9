@@ -3,7 +3,7 @@ pipeline {
         label 'node1'
     }
     stages {
-        stage('pull') {
+        stage('pull') {https://github.com/SurajBele/studentdata.git
             steps {
                 git 'https://github.com/SurajBele/studentdata.git'
                 echo "pulling successful"
