@@ -11,12 +11,13 @@ pipeline {
         }
         stage('building') {
             steps {
-                sh '
+                sh '''
                     export MAVEN_HOME=/opt/apache-maven-3.9.10
                     export MAVEN_HOME
                     PATH=$PATH:$MAVEN_HOME/bin
                     mvn -v
-                    mvn clean package'
+                    mvn clean package
+                '''
                 echo "building successful"
             }
         }
