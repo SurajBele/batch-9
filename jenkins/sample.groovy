@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                withSonarQubeEnv(insatallation name: 'sonar-server' credentialsId: 'sonar-token') {
+                withSonarQubeEnv(insatallationName:'sonar-server', credentialsId: 'sonar-token') {
                   mvn clean verify sonar:sonar -Dsonar.projectKey=student
                 }
                 echo "testing successful"
