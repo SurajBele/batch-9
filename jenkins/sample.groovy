@@ -25,8 +25,6 @@ pipeline {
             steps {
                 mvn clean verify sonar:sonar \
                 -Dsonar.projectKey=student \
-            \
-                -Dsonar.login=sqp_aa24f4dc29d7db32a8e7b65c3471a4e3a2522801
                 echo "testing successful"
             }
         }
