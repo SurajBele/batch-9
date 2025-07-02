@@ -34,6 +34,11 @@ pipeline {
                 echo "testing successful"
             }
         }
+         stage('Q') {
+            steps {
+                echo "deploy successful"
+            }
+        }
         stage('Deploy') {
             steps {
                 echo "deploy successful"
