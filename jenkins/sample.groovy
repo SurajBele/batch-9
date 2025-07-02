@@ -28,7 +28,8 @@ pipeline {
                     export MAVEN_HOME=/opt/apache-maven-3.9.10
                     export MAVEN_HOME
                     PATH=$PATH:$MAVEN_HOME/bin
-                    mvn clean verify sonar:sonar -Dsonar.projectKey=student'
+                    mvn clean verify sonar:sonar -Dsonar.projectKey=student
+                '''
                 }
                 echo "testing successful"
             }
