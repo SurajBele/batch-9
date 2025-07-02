@@ -34,8 +34,9 @@ pipeline {
                 echo "testing successful"
             }
         }
-         stage('Q') {
+         stage('QualityGate') {
             steps {
+                
                 echo "deploy successful"
             }
         }
